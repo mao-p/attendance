@@ -1,0 +1,58 @@
+.attendance__panel
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+.attendance__alert
+{
+    text-align: center;
+    position: relative;
+    top: 20px;
+    font-weight: bold;
+}
+
+.btn-clock-in
+{
+    width: 35em;
+    height: 12em;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    font-weight: bold;
+}
+
+.btn-clock-out {
+    width: 35em;
+    height: 12em;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    font-weight: bold;
+}
+
+.btn-break-in {
+    width: 35em;
+    height: 12em;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    font-weight: bold;
+}
+
+.btn-break-out {
+    width: 35em;
+    height: 12em;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    font-weight: bold;
+}
+
+/* グレーのボタンスタイル */
+.disabled {
+    color: #888888;
+}
+
+.attendance__content
+{
+    padding: 50px;
+}

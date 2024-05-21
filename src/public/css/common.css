@@ -1,0 +1,50 @@
+.header {
+    background: #ffffff;
+    height: 50px;
+}
+
+.header__inner {
+    margin: 0 auto;
+    max-width: 1230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 25px;
+    padding-left: 30px;
+
+}
+
+.header-link {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    text-align: right;
+    vertical-align: middle;
+}
+
+
+.content
+{
+    background-color: #f1f1f1;
+    height: 570px;
+}
+
+.copyright {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.footer {
+    padding: 10px 0 0 0;
+    height: 13px;
+}
